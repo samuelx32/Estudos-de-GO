@@ -16,9 +16,9 @@ func main() {
 	fmt.Println("Média: ", media(notas))
 	fmt.Println("Moda: ", moda(notas))
 	fmt.Println("Mediana: ", mediana(notas))
-    fmt.Println("Variância: ", variancia(notas, media(notas)))
-    desvio_p := math.Sqrt(float64(variancia(notas, media(notas))))
-    fmt.Printf("Desvio padrão: %.2f",desvio_p)
+    	fmt.Println("Variância: ", variancia(notas, media(notas)))
+     	desvio_p := math.Sqrt(float64(variancia(notas, media(notas))))
+    	fmt.Printf("Desvio padrão: %.2f",desvio_p)
 }
 
 func variancia (notas [] int, media float32) float32{
